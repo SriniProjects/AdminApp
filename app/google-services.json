@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "310542710781",
+    "firebase_url": "https://adminapp-ae265.firebaseio.com",
+    "project_id": "adminapp-ae265",
+    "storage_bucket": "adminapp-ae265.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310542710781:android:fc61ad13f91e1389",
+        "android_client_info": {
+          "package_name": "com.adminapp.optimustechproject.adminapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "310542710781-akar0g2r2nho6f51ljrcu42uf9lpivue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpzKXDPZeqs_673ATffNPbKARRAAaMBzs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

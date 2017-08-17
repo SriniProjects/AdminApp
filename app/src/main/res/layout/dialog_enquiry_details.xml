@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:hint="Date"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:textSize="12sp"
+            android:id="@+id/date"
+            android:paddingLeft="5dp"
+            android:textStyle="bold"
+            />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Fitness Health"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:id="@+id/training"
+        android:paddingLeft="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/cardview_dark_background"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:hint="Learner name"
+        android:padding="5dp"
+        android:paddingLeft="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/lName"
+        android:hint="---"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:background="@drawable/box"
+        android:layout_marginBottom="8dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:hint="Learner mobile"
+        android:padding="5dp"
+        android:paddingLeft="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/lMobile"
+        android:hint="---"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:background="@drawable/box"
+        android:layout_marginBottom="8dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:hint="Learner email"
+        android:padding="5dp"
+        android:paddingLeft="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:id="@+id/lEmail"
+        android:hint="---"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:background="@drawable/box"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:hint="Trainer name"
+        android:padding="5dp"
+        android:paddingLeft="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:id="@+id/tName"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:hint="---"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:background="@drawable/box"
+        android:layout_marginBottom="8dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:hint="Trainer mobile"
+        android:padding="5dp"
+        android:paddingLeft="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:id="@+id/tMobile"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:hint="---"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:background="@drawable/box"
+        android:layout_marginBottom="8dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:hint="Trainer email"
+        android:padding="5dp"
+        android:paddingLeft="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:id="@+id/tEmail"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:hint="---"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:background="@drawable/box"
+        android:layout_marginBottom="16dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/cardview_dark_background"/>
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:text="Close"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="right"
+        android:textStyle="bold|italic"
+        android:background="@color/colorAccent"
+        android:textColor="#fff"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/close"/>
+</LinearLayout>
